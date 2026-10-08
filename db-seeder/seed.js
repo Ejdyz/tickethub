@@ -5,10 +5,10 @@ const { Client } = pg;
 
 // Uprav své přihlašovací údaje k PostgreSQL
 const client = new Client({
-  host: 'db',
-  port: 5432,
-  user: 'postgres',
-  password: 'postgres',
+  host: '192.168.1.101',
+  port: 5436,
+  user: 'tickethub',
+  password: 'zTAVD3ttOCGb9hustsLT',
   database: 'tickethub',
 });
 
